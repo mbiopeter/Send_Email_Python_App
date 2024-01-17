@@ -1,15 +1,15 @@
 #Go over to your Gmail account and setup 2 factor authentication
 #generate app password
 from email.message import EmailMessage
-from env import APP_PASSWORD
+from env import APP_PASSWORD, SENDER_EMAIL, RECEIVER_EMAIL
 import ssl
 import smtplib
 
-email_sender = 'mbiopeter401@gmail.com'
+email_sender = SENDER_EMAIL
 email_password = APP_PASSWORD
 #email_password = 'gnny hqdo pwno esfy'
 
-email_receiver = 'mbiopeterofficial@gmail.com'
+email_receiver = RECEIVER_EMAIL
 
 subject = 'Pyhton Programming Language'
 
