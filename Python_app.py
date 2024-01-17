@@ -1,0 +1,1 @@
+print('peter is a child of GOd')
